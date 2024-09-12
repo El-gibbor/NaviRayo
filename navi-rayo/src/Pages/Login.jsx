@@ -1,7 +1,6 @@
-// import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { GrFormNext } from "react-icons/gr";
-// import { Link, useNavigate } from "react-router-dom";
-// import { Fade } from "react-awesome-reveal";
+import { Link, useNavigate } from "react-router-dom";
 import { CgSpinner } from "react-icons/cg";
 import { Helmet } from "react-helmet";
 import { MdLocationOn } from "react-icons/md";
