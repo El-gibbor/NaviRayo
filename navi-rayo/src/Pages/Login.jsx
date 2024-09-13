@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { GrFormNext } from "react-icons/gr";
 import { Link, useNavigate } from "react-router-dom";
+// import { Fade } from "react-awesome-reveal";
 import { CgSpinner } from "react-icons/cg";
 import { Helmet } from "react-helmet";
 import { MdLocationOn } from "react-icons/md";
@@ -81,7 +82,7 @@ function Login() {
           <div className="flex items-center justify-center py-3">
             <MdLocationOn className="text-[30px] text-main-color pb-[1px] translate-x-1" />
             <h1 className=" font-bold text-[25px] tracking-tighter text-main-color pr-3  ">
-              gerayo.
+              NaviRayo
             </h1>
           </div>
           <h1 className="font-bold tracking-tighter text-2xl text-left text-dark-text/90 dark:text-white">
@@ -97,7 +98,7 @@ function Login() {
               <input
                 type="text"
                 name=""
-                className="bg-[#F2F1F6] dark:bg-container-dark-2 text-dark-text dark:text-white text-sm  h-[40px] w-full flex items-center justify-start px-5 outline-none focus:ring-2 ring-main-color ring-offset-2 dark:ring-offset-body-color-dark dark:placeholder:text-light-text  rounded-full "
+                className="bg-[#F2F1F6] dark:bg-container-dark-2 text-dark-text dark:text-white text-sm  h-[40px] w-full flex items-center justify-start px-5 outline-none focus:ring-2 ring-main-color ring-offset-2 dark:ring-offset-body-color-dark dark:placeholder:text-light-text"
                 placeholder="Your Email"
               />
             </div>
@@ -108,7 +109,7 @@ function Login() {
               <input
                 type="password"
                 id="password"
-                className="bg-[#F2F1F6] dark:bg-container-dark-2 text-dark-text dark:text-white text-sm  h-[40px] w-full flex items-center justify-start px-5 outline-none focus:ring-2 ring-main-color ring-offset-2 dark:ring-offset-body-color-dark dark:placeholder:text-light-text  rounded-full "
+                className="bg-[#F2F1F6] dark:bg-container-dark-2 text-dark-text dark:text-white text-sm  h-[40px] w-full flex items-center justify-start px-5 outline-none focus:ring-2 ring-main-color ring-offset-2 dark:ring-offset-body-color-dark dark:placeholder:text-light-text"
                 placeholder="Password"
               />
             </div>
@@ -130,7 +131,7 @@ function Login() {
         <div className="flex flex-col items-center justify-start w-full">
           <button
             // onClick={handleClick}
-            className="bg-main-color my-4 outline-none text-white font-bold text-base transition active:scale-90 h-[40px] w-full max-w-[350px] rounded-full flex items-center justify-center gap-2"
+            className="bg-main-color my-4 outline-none text-white font-bold text-base transition active:scale-90 h-[40px] w-full max-w-[350px] flex items-center justify-center gap-2"
           >
             {pending ? (
               <>
