@@ -6,6 +6,7 @@ function Track({ guestEmail }) {
     const [visited, setVisited] = useState(false);
     const navigate = useNavigate();
     const { pathname } = useLocation();
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         window.scrollTo(0, 0);
