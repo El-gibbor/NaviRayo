@@ -65,7 +65,7 @@ function Login() {
             </>
           ) : (
             <>
-              <p className=" font-medium text-sm ">Continue as Guest</p>
+              <p className=" font-normaltext-sm ">Continue as Guest</p>
               <GrFormNext />
             </>
           )}
@@ -85,16 +85,12 @@ function Login() {
               NaviRayo
             </h1>
           </div>
-          <h1 className="font-bold tracking-tighter text-2xl text-left text-dark-text/90 dark:text-white">
+          <h1 className="font-normal tracking-tighter text-2xl text-left text-dark-text/90 dark:text-white">
             Let's Sign you in.
           </h1>
-          <p className="text-sm text-left text-dark-text/80 dark:text-light-text  max-w-[400px] font-medium">
-            Welcome back!
-          </p>
-
-          <form className="w-full pt-3 flex flex-col items-center justify-center gap-2">
+              <form className="w-full pt-3 flex flex-col items-center justify-center gap-2">
             <div className="flex flex-col w-full items-start justify-start max-w-[350px]">
-              <p className="text-sm font-medium py-1 text-dark-text dark:text-light-text">Email</p>
+              <p className="text-sm font-normalpy-1 text-dark-text dark:text-light-text">Email</p>
               <input
                 type="text"
                 name=""
@@ -103,7 +99,7 @@ function Login() {
               />
             </div>
             <div className="flex flex-col w-full items-start justify-start max-w-[350px]">
-              <p className="text-sm font-medium py-1 text-dark-text dark:text-light-text">
+              <p className="text-sm font-normal py-1 text-dark-text dark:text-light-text">
                 Password
               </p>
               <input
@@ -121,7 +117,7 @@ function Login() {
                   className=" accent-main-color h-4 w-4"
                   onClick={handleShowPassword}
                 />
-                <p className="text-dark-text dark:text-light-text font-medium text-sm capitalize">
+                <p className="text-dark-text dark:text-light-text font-normal text-sm capitalize">
                   Show password
                 </p>
               </label>
@@ -142,7 +138,7 @@ function Login() {
               <>Sign in</>
             )}
           </button>
-          <p className="flex items-center justify-center w-full text-sm gap-2 text-dark-text dark:text-light-text ">
+          <p className="flex items-center justify-center w-full font-normal text-sm gap-2 text-dark-text dark:text-light-text ">
             Don't have an account?{" "}
             <Link to={"/register"} className="text-main-color font-semibold">
               Register
