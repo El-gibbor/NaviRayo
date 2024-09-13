@@ -1,9 +1,11 @@
+import React, { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 
 function Track({ guestEmail }) {
     const [visited, setVisited] = useState(false);
     const navigate = useNavigate();
+    const { pathname } = useLocation();
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -31,3 +33,5 @@ function Track({ guestEmail }) {
         }
       }, []);
 }
+
+export default Track;

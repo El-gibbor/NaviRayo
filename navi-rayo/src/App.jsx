@@ -1,4 +1,5 @@
 import Login from "./Pages/Login";
+import Track from "./Pages/Track"
 import { useEffect, useState } from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
@@ -20,6 +21,7 @@ function App() {
     <>
       <HashRouter>
         <Routes>
+          <Route path="/" element={<Track guestEmail={guestEmail} />} />
           <Route path="/login" element={<Login />} />
           {/* <Route path="/*" element={<PageError />} /> */}
         </Routes>
