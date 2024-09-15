@@ -86,7 +86,7 @@ function Login() {
           <h1 className="font-normal tracking-tighter text-2xl text-left text-dark-text/90 dark:text-white">
             Let's Sign you in.
           </h1>
-              <form className="w-full pt-3 flex flex-col items-center justify-center gap-2">
+          <form className="w-full pt-3 flex flex-col items-center justify-center gap-2">
             <div className="flex flex-col w-full items-start justify-start max-w-[350px]">
               <p className="text-sm font-normalpy-1 text-dark-text dark:text-light-text">Email</p>
               <input
