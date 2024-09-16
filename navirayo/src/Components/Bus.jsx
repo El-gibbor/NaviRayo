@@ -94,13 +94,6 @@ function Bus({
 
   return (
     <div className="w-full h-fit overflow-clip bg-white dark:bg-container-dark ring-1 dark:ring-transparent ring-slate-200/40 mt-0 rounded-xl flex flex-col text-start justify-start p-4 relative">
-      {/* icon */}
-      {/* <div className="h-[50px] aspect-square rounded-full absolute top-[-25px] right-8 z-10 bg-white p-2 ">
-        <img
-          src="https://img.icons8.com/?size=96&id=WuEAfdVu7ugL&format=png"
-          alt=""
-        />
-      </div> */}
       <GiHeavyRain className="absolute -right-2 -top-8 rotate-[50deg] text-[90px] text-stone-100 dark:text-container-dark-2/40" />
       <div className="flex flex-col items-center justify-start max-md:items-start gap-2 z-10">
         <div className="w-full flex items-center justify-start gap-2 max-md:max-w-[90%] max-md:flex-wrap max-md:items-start ">
