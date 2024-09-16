@@ -8,7 +8,7 @@ import {
   LuSun,
 } from "react-icons/lu";
 
-function Navbar({ show, showPf, guestEmail, showPremiumModal }) {
+function Navbar({ show, showPf, guestEmail }) {
     const [profileMenu, setProfileMenu] = useState(false);
     const navigate = useNavigate();
     const location = useLocation();

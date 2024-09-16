@@ -49,6 +49,17 @@ function Track({ guestEmail }) {
       document.documentElement.classList.add("no-scroll");
     };
 
+      // Profile
+  const showProfilePopup = () => {
+    setProfile(true);
+    document.documentElement.classList.add("no-scroll");
+  };
+
+  const hideProfilePopup = () => {
+    setProfile(false);
+    document.documentElement.classList.remove("no-scroll");
+  };
+
   return (
     <div className="bg-stone-100 dark:bg-body-color-dark min-h-svh max-md:pb-10 text-dark-text">
       {/* Welcome */}
@@ -74,7 +85,7 @@ function Track({ guestEmail }) {
 
       {/* pc navBar */}
       <div className="w-full h-fit sticky max-md:relative top-0 z-20 backdrop-blur-md bg-stone-100/90 dark:bg-body-color-dark/80 ">
-        <NavBar show={showNotificationPopup} showPremiumModal={showPremiumModal} showPf={showProfilePopup} guestEmail={guestEmail} />
+        <NavBar show={showNotificationPopup} showPf={showProfilePopup} guestEmail={guestEmail} />
       </div>
       <Filter mobileSearch={mobileSearch} onRouteFilter={handleRouteIdSubmit} onFilterSubmit={handleFilterSubmit} />
 
