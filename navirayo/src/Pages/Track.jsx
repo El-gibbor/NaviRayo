@@ -1,19 +1,21 @@
-import React, { useEffect, useState } from "react";
-import NavBar from "../Components/NavBar";
-import { Link, useLocation, useNavigate } from "react-router-dom";
-
 import { Helmet } from "react-helmet";
 import Filter from "../Components/Filter";
+import NavBar from "../Components/NavBar";
 import Welcome from "../Components/Welcome";
+import React, { useEffect, useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+
 
 
 function Track({ guestEmail }) {
-  const [visited, setVisited] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
-  const [loading, setLoading] = useState(true);
-  const [profileMenu, setProfileMenu] = useState(false);
   const { pathname } = useLocation();
+  const [loading, setLoading] = useState(true);
+  const [visited, setVisited] = useState(false);
+  const [showProfile, setProfile] = useState(false);
+  const [profileMenu, setProfileMenu] = useState(false);
+  const [showNotification, setShowNotification] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -40,6 +42,12 @@ function Track({ guestEmail }) {
       setVisited(true);
     }
   }, []);
+
+    // notification
+    const showNotificationPopup = () => {
+      setShowNotification(true);
+      document.documentElement.classList.add("no-scroll");
+    };
 
   return (
     <div className="bg-stone-100 dark:bg-body-color-dark min-h-svh max-md:pb-10 text-dark-text">
