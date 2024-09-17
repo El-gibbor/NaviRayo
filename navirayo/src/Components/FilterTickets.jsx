@@ -34,6 +34,35 @@ function FilterTickets({ onFilterSubmit }) {
         }
       };
 
+       // from
+  const checkEmptyFrom = (e) => {
+    const value = e.target.value;
+    setInputValueFrom(value);
+    setInputFrom(value !== "");
+    setInputTo(false);
+  };
+  const choosenFrom = (bstop) => {
+    setInputFrom(false);
+    setInputValueFrom(bstop);
+  };
+  const filteredBusStopsFrom = BusStations.filter((bstop) =>
+    bstop.toLowerCase().includes(inputValueFrom.toLowerCase())
+  );
+  // to
+  const checkEmptyTo = (e) => {
+    const value = e.target.value;
+    setInputValueTo(value);
+    setInputTo(value !== "");
+    setInputFrom(false);
+  };
+  const choosenTo = (bstop) => {
+    setInputTo(false);
+    setInputValueTo(bstop);
+  };
+  const filteredBusStopsTo = BusStations.filter((bstop) =>
+    bstop.toLowerCase().includes(inputValueTo.toLowerCase())
+  );
+
 return(
     <div>
 
