@@ -48,6 +48,14 @@ function Filter({ onFilterSubmit, onRouteFilter }) {
         };
     };
 
+    // clearing the form Route Id
+  const clearFormRoute = () => {
+    setInputValueRouteId("");
+    if (onRouteFilter) {
+      setFormEmptyRoute(false);
+      onRouteFilter("");
+    }
+  };
     // from
     const checkEmptyFrom = (e) => {
         const value = e.target.value;
