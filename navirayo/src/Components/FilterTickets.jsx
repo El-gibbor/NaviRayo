@@ -22,6 +22,18 @@ function FilterTickets({ onFilterSubmit }) {
     }
   };
 
+    // clearing the form
+    const clearForm = () => {
+        setInputValueFrom("");
+        setInputValueTo("");
+        setInputFrom(false);
+        setInputTo(false);
+        if (onFilterSubmit) {
+          setFormEmpty(false);
+          onFilterSubmit("", "");
+        }
+      };
+
 return(
     <div>
 
