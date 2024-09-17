@@ -64,8 +64,6 @@ function FilterTickets({ onFilterSubmit }) {
     );
 
     return (
-        <div>
-            return (
             <div className="w-full h-fit px-10 mb-3">
                 <div
                     className={`bg-search-light relative dark:bg-search-dark bg-center-30 dark:bg-center-60 bg-cover bg-no-repeat h-fit max-md:h-fit max-md:absolute w-full rounded-[30px] flex flex-col items-center justify-start px-10 py-20 max-md:px-4 shadow-xl max-w-[1700px] mx-auto ${animateShow
@@ -171,6 +169,4 @@ function FilterTickets({ onFilterSubmit }) {
                     </div>
                 </div>
             </div>
-        </div>
-    )
-};
+    )};
