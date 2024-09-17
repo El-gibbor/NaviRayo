@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 function Profile({ hide, guestEmail }) {
+    const [animate, setAnimate] = useState(false);
+    const [loggingOut, setLoggingOut] = useState(false);
 
     const logMeOut = () => {
         localStorage.removeItem("visitedAs");
@@ -13,6 +15,13 @@ function Profile({ hide, guestEmail }) {
     useEffect(() => {
         setAnimate(true);
     }, []);
+
+    const hideNotificationPopup = () => {
+        setAnimate(false);
+        setTimeout(() => {
+          hide();
+        }, 200);
+      };
 
     return (
         <div>
