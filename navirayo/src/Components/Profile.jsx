@@ -83,6 +83,17 @@ function Profile({ hide, guestEmail }) {
                                 Your profile
                             </h1>
                         </button>
+
+                        {/* separator */}
+                        <div className="w-full max-w-[95%] mx-auto h-[1px] bg-border-lines-light dark:bg-container-dark-2 my-2"></div>
+
+                        {/* Link */}
+                        <button className="h-fit w-full hover:bg-stone-100 dark:hover:bg-container-dark rounded-lg flex items-center justify-start px-2 py-[6px] gap-2">
+                            <LuCalendarClock className="text-lg text-dark-text/70 dark:text-light-text" />
+                            <h1 className="font-normal text-sm group-hover:text-main-color text-black dark:text-white ">
+                                Manage Bookings
+                            </h1>
+                        </button>
                     </div>
                 </>
                 );
