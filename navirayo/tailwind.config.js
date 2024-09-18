@@ -11,7 +11,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        Comfortaa: ["Comfortaa", "system-"],
+        Comfortaa: ["Comfortaa", "system-ui"],
       },
       colors: {
         "main-color": "#399E5A",
