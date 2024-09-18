@@ -73,7 +73,17 @@ function Profile({ hide, guestEmail }) {
                         <IoCloseOutline className="text-xl" />
                     </button>
                 </div>
-            </div>
-        </>
-    );
+                {/* All Links */}
+                <div className="h-auto flex-1 w-full flex items-center justify-between flex-col overflow-y-auto">
+                    <div className="w-full h-auto flex-1">
+                        {/* Link */}
+                        <button className="h-fit w-full hover:bg-stone-100 dark:hover:bg-container-dark rounded-lg flex items-center justify-start px-2 py-[6px] gap-2">
+                            <LuUser2 className="text-lg text-dark-text/70 dark:text-light-text" />
+                            <h1 className="font-normal text-sm group-hover:text-main-color text-black dark:text-white ">
+                                Your profile
+                            </h1>
+                        </button>
+                    </div>
+                </>
+                );
 }
