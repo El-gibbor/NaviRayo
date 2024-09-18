@@ -329,3 +329,106 @@ export const Faqs = [
       RouteId: "314",
     },
   ]
+
+  export const RouteIds = [
+    {
+      from: "Kimironko",
+      to: "Zindiro",
+      RouteId: "307",
+    },
+    {
+      from: "Kimironko",
+      to: "Downtown",
+      RouteId: "302",
+    },
+    {
+      from: "Nyanza",
+      to: "Downtown",
+      RouteId: "203",
+    },
+    {
+      from: "Nyanza",
+      to: "Nyabugogo",
+      RouteId: "204",
+    },
+    {
+      from: "Remera",
+      to: "Gikondo",
+      RouteId: "109",
+    },
+    {
+      from: "Busanza",
+      to: "Remera",
+      RouteId: "113",
+    },
+    {
+      from: "Nyamirambo",
+      to: "Nyabugogo",
+      RouteId: "402",
+    },
+    {
+      from: "Kagugu",
+      to: "Nyabugogo",
+      RouteId: "311",
+    },
+    {
+      from: "Gikondo",
+      to: "Nyabugogo",
+      RouteId: "206",
+    },
+    {
+      from: "Kabuga",
+      to: "Nyabugogo",
+      RouteId: "102",
+    },
+    {
+      from: "Kabuga",
+      to: "Kimironko",
+      RouteId: "325",
+    },
+    {
+      from: "Remera",
+      to: "Nyabugogo",
+      RouteId: "105",
+    },
+    {
+      from: "Remera",
+      to: "Masaka",
+      RouteId: "107",
+    },
+    {
+      from: "Kimironko",
+      to: "Masaka",
+      RouteId: "322",
+    },
+    {
+      from: "Kinyinya",
+      to: "Downtown",
+      RouteId: "317",
+    },
+    {
+      from: "Kimironko",
+      to: "Nyabugogo",
+      RouteId: "314",
+    },
+    {
+      from: "Kimironko",
+      to: "Nyabugogo",
+      RouteId: "305",
+    },
+  ]
+  export const BusStations = [
+    "Kigali",
+    "Huye",
+    "Musanze",
+    "Nyanza"
+  ];
+
+  export const BusStationsImages = [
+    {location: 'Kigali', image: "https://www.safarisrwandasafari.com/wp-content/uploads/2022/09/kigali-city..-1.jpg"},
+    {location: 'Huye', image: "https://c1.staticflickr.com/2/1712/25836586392_a2372e9e95_b.jpg"},
+    {location: 'Musanze', image: "https://media.istockphoto.com/id/1471123952/photo/a-man-who-works-for-musanze-bus-station.jpg?s=612x612&w=0&k=20&c=aOn8NJditzTGaRbRhS_lOQQyW8YCym3-JDAJCaziSxk="},
+    {location: 'Nyanza', image: "https://www.nyungweforestnationalpark.org/wp-content/uploads/2022/05/Kings-Palace-Nyanza.jpg"},
+
+  ];
+
