@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../Components/Navbar";
+import Navbar from "../Components/NavBar";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { LuListFilter, LuSearch } from "react-icons/lu";
@@ -19,8 +19,8 @@ import { FiHelpCircle } from "react-icons/fi";
 import { HiOutlineLogout } from "react-icons/hi";
 import { Helmet } from "react-helmet";
 import { HiOutlineTicket } from "react-icons/hi2";
-import MobileTopBar from "../Components/MobileTopBar";
-import MobileBottomNavbar from "../Components/MobileBottomNavbar";
+// import MobileTopBar from "../Components/MobileTopBar";
+// import MobileBottomNavbar from "../Components/MobileBottomNavbar";
 import Filter from "../Components/Filter";
 import Notification from "../Components/Notification";
 import Welcome from "../Components/Welcome";
