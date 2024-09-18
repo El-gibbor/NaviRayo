@@ -94,6 +94,20 @@ function Profile({ hide, guestEmail }) {
                                 Manage Bookings
                             </h1>
                         </button>
+                        {/* Link */}
+                        <button className="h-fit w-full hover:bg-stone-100 dark:hover:bg-container-dark rounded-lg flex items-center justify-start px-2 py-[6px] gap-2">
+                            <LuTicket className="text-lg text-dark-text/70 dark:text-light-text" />
+                            <h1 className="font-normal text-sm group-hover:text-main-color text-black dark:text-white ">
+                                Your Tickets
+                            </h1>
+                        </button>
+                        {/* Link */}
+                        <button className="h-fit w-full hover:bg-stone-100 dark:hover:bg-container-dark rounded-lg flex items-center justify-start px-2 py-[6px] gap-2">
+                            <LuHistory className="text-lg text-dark-text/70 dark:text-light-text" />
+                            <h1 className="font-normal text-sm group-hover:text-main-color text-black dark:text-white ">
+                                Purchase history
+                            </h1>
+                        </button>
                     </div>
                 </>
                 );
