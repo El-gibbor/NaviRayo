@@ -445,3 +445,45 @@ export const Faqs = [
     },
 
   ]
+
+  export const ProvinceJourney = [
+    {
+      id: "JF937H950-248802-DNDIIF",
+      plateNumber: "RAC843KG",
+      numberOfSeats: 29,
+      from: "Kigali",
+      to: "Huye",
+      busType: "Volcano",
+      departureAt: "8:00 am",
+      arrivalTime: "12:00 am",
+      price: "2,800",
+      districts: ["Kigali", "Kamonyi", "Muhanga","Ruhango","Nyanza","Huye"],
+      seatsLeft: ["20"],
+    },
+    {
+      id: "JF937H950-248802-DND2EOF",
+      plateNumber: "RAC843KG",
+      numberOfSeats: 29,
+      from: "Kigali",
+      to: "Nyanza",
+      busType: "Horizon",
+      departureAt: "8:00 am",
+      arrivalTime: "11:30 am",
+      price: "2,200",
+      districts: ["Kigali", "Kamonyi", "Muhanga","Ruhango","Nyanza",],
+      seatsLeft: ["23"],
+    },
+    {
+      id: "JF937H950-248802-DNDIIF",
+      plateNumber: "RAC843KG",
+      numberOfSeats: 29,
+      from: "Kigali",
+      to: "Musanze",
+      busType: "Volcano",
+      departureAt: "8:00 am",
+      arrivalTime: "12:00 am",
+      price: "3,300",
+      districts: ["Kigali", "Rulindo", "Gakenke","Musanze"],
+      seatsLeft: ["3"],
+    },
+  ]
