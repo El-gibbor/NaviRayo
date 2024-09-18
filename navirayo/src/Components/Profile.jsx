@@ -149,8 +149,31 @@ function Profile({ hide, guestEmail }) {
                                 Gerayo Community
                             </h1>
                         </button>
+                        <div className="w-full h-fit">
+                            <button
+                                onClick={logMeOut}
+                                className="h-fit w-full hover:bg-stone-100 dark:hover:bg-container-dark rounded-lg flex items-center justify-start px-2 py-[6px] gap-2"
+                            >
+                                {loggingOut ? (
+                                    <>
+                                        <CgSpinner className="animate-spinLoader text-lg text-red-400" />
+                                        <h1 className="font-medium dark:text-white text-sm group-hover:text-main-color ">
+                                            Signing out..
+                                        </h1>
+                                    </>
+                                ) : (
+                                    <>
+                                        <HiOutlineLogout className="text-lg text-red-400" />
+                                        <h1 className="font-medium dark:text-white text-sm group-hover:text-main-color ">
+                                            Sign Out
+                                        </h1>
+                                    </>
+                                )}
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </>
-            );
+            </div>
+        </>
+    );
 }
