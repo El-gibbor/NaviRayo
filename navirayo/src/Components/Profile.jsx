@@ -181,3 +181,4 @@ function Profile({ hide, guestEmail }) {
         </>
       );
 }
+export default Profile;
