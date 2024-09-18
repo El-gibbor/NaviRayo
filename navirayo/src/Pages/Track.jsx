@@ -27,7 +27,7 @@ import Welcome from "../Components/Welcome";
 import { BusPark, KigaliBusJourney } from "../content/data";
 import MoreInfo from "../Components/MoreInfo";
 import Profile from "../Components/Profile";
-import Premium from "../Components/Premium";
+// import Premium from "../Components/Premium";
 
 function Track({ guestEmail }) {
   const [visited, setVisited] = useState(false);
@@ -228,7 +228,7 @@ function Track({ guestEmail }) {
         show={showNotificationPopup}
       />
 
-      {/* Phone navBar */}
+      Phone navBar
       <MobileBottomNavbar guestEmail={guestEmail} />
 
       {/* pc navBar */}
