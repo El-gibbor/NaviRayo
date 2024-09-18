@@ -228,7 +228,7 @@ function Track({ guestEmail }) {
         show={showNotificationPopup}
       />
 
-      Phone navBar
+      {/* Phone navBar */}
       <MobileBottomNavbar guestEmail={guestEmail} />
 
       {/* pc navBar */}
