@@ -432,3 +432,16 @@ export const Faqs = [
 
   ];
 
+  export const Companies = [
+    {
+      name: "Volcano",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1iszThteThGMm9XkwiKkYz_F0u3Z0pPfmALunl6MqNSUgV68RgdKfrgi_UADwfujqRAE&usqp=CAU",
+      email: "volcano@gmail.com"
+    },
+    {
+      name: "Horizon",
+      logo: "https://horizonexpress.rw/wp-content/uploads/2022/02/Horizon_Express_Logo_Modified_page-0001__1_-removebg-preview.png",
+      email: "Horizon@gmail.com"
+    },
+
+  ]
