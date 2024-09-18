@@ -108,7 +108,49 @@ function Profile({ hide, guestEmail }) {
                                 Purchase history
                             </h1>
                         </button>
+                        {/* separator */}
+                        <div className="w-full max-w-[95%] mx-auto h-[1px] bg-border-lines-light dark:bg-container-dark-2 my-2"></div>
+
+                        {/* Link */}
+                        <button className="h-fit w-full hover:bg-stone-100 dark:hover:bg-container-dark rounded-lg flex items-center justify-start px-2 py-[6px] gap-2">
+                            <LuSettings className="text-lg text-dark-text/70 dark:text-light-text" />
+                            <h1 className="font-normal text-sm group-hover:text-main-color text-black dark:text-white ">
+                                Settings
+                            </h1>
+                        </button>
+                        {/* Link */}
+                        <button className="h-fit w-full hover:bg-stone-100 dark:hover:bg-container-dark rounded-lg flex items-center justify-start px-2 py-[6px] gap-2">
+                            <LuCrown className="text-lg text-dark-text/70 dark:text-light-text" />
+                            <h1 className="font-normal text-sm group-hover:text-main-color text-black dark:text-white ">
+                                Get Premium
+                            </h1>
+                        </button>
+                        {/* Link */}
+                        <button className="h-fit w-full hover:bg-stone-100 dark:hover:bg-container-dark rounded-lg flex items-center justify-start px-2 py-[6px] gap-2">
+                            <LuInfo className="text-lg text-dark-text/70 dark:text-light-text" />
+                            <h1 className="font-normal text-sm group-hover:text-main-color text-black dark:text-white ">
+                                About Gerayo
+                            </h1>
+                        </button>
+
+                        {/* separator */}
+                        <div className="w-full max-w-[95%] mx-auto h-[1px] bg-border-lines-light dark:bg-container-dark-2 my-2"></div>
+
+                        {/* Link */}
+                        <button className="h-fit w-full hover:bg-stone-100 dark:hover:bg-container-dark rounded-lg flex items-center justify-start px-2 py-[6px] gap-2">
+                            <LuUsers2 className="text-lg text-dark-text/70 dark:text-light-text" />
+                            <h1 className="font-normal text-sm group-hover:text-main-color text-black dark:text-white ">
+                                Gerayo Support
+                            </h1>
+                        </button>
+                        <button className="h-fit w-full hover:bg-stone-100 dark:hover:bg-container-dark rounded-lg flex items-center justify-start px-2 py-[6px] gap-2">
+                            <LuMessagesSquare className="text-lg text-dark-text/70 dark:text-light-text" />
+                            <h1 className="font-normal text-sm group-hover:text-main-color text-black dark:text-white ">
+                                Gerayo Community
+                            </h1>
+                        </button>
                     </div>
-                </>
-                );
+                </div>
+            </>
+            );
 }
