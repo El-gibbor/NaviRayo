@@ -15,7 +15,7 @@ function Welcome() {
   const hideWelcomeModal = () => {
     setSaving(true);
     setTimeout(() => {
-      localStorage.setItem('visitedGerayo', 'true'); // Store visit status
+      localStorage.setItem('visitedNaviRayo', 'true'); // Store visit status
       setAnimate(false); // Hide modal
     }, 500);
   };

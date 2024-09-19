@@ -35,7 +35,7 @@ function TrackMap({ guestEmail }) {
 
   // check if this user has visited before
   useEffect(() => {
-    const visitedBefore = localStorage.getItem("visitedGerayo");
+    const visitedBefore = localStorage.getItem("visitedNaviRayo");
     if (visitedBefore) {
       setVisited(true);
     }
@@ -89,7 +89,7 @@ function TrackMap({ guestEmail }) {
 
       {/* Helmet */}
       <Helmet>
-        <title>Map | gerayo.</title>
+        <title>Map | NaviRayo.</title>
       </Helmet>
       {/* Profile Menu overlay */}
       <div

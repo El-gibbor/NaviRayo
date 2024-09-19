@@ -16,7 +16,7 @@ function Info() {
         <div className="w-fit h-fit flex items-center justify-start">
           <MdLocationOn className="text-[50px] text-main-color translate-y-[1px] translate-x-[3px]" />
           <h1 className=" font-bold text-[46px] tracking-tighter text-main-color pr-3 pointer-events-none select-none ">
-            gerayo
+            NaviRayo
           </h1>
         </div>
         <p className="font-medium text-sm capitalize font-mono">version 1.01</p>

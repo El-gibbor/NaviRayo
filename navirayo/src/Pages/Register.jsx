@@ -51,7 +51,7 @@ function Register() {
     <div className="h-svh w-full overflow-x-clip overflow-y-auto flex items-center justify-between max-sm:justify-end p-8 max-sm:p-4 bg-white dark:bg-body-color-dark">
       {/* Helmet */}
       <Helmet>
-        <title>Login | gerayo.</title>
+        <title>Login | NaviRayo.</title>
       </Helmet>
       <div className="fixed top-0 left-0 p-8 max-[250px]:bg-white w-full h-fit flex justify-end items-center select-none ">
         {/* Skip */}
@@ -83,14 +83,14 @@ function Register() {
           <div className="flex items-center justify-center py-3">
             <MdLocationOn className="text-[30px] text-main-color pb-[1px] translate-x-1" />
             <h1 className=" font-bold text-[25px] tracking-tighter text-main-color pr-3  ">
-              gerayo.
+              NaviRayo.
             </h1>
           </div>
           <h1 className="font-bold tracking-tighter text-2xl text-left text-dark-text/90 dark:text-white">
             Let's Sign you up.
           </h1>
           <p className="text-sm text-left text-dark-text/80 dark:text-light-text  max-w-[400px] font-medium">
-            Join Gerayo today.
+            Join NaviRayo today.
           </p>
 
           <form className="w-full pt-3 flex flex-col items-center justify-center gap-2">

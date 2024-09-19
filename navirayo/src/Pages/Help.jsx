@@ -54,7 +54,7 @@ function Help({ guestEmail }) {
 
       {/* Helmet */}
       <Helmet>
-        <title>Buy Tickets | gerayo.</title>
+        <title>Buy Tickets | NaviRayo.</title>
       </Helmet>
       {/* Profile Menu overlay */}
       <div
@@ -81,7 +81,7 @@ function Help({ guestEmail }) {
           <div className="w-fit h-fit flex items-center justify-start">
             <MdLocationOn className="text-[37px] text-main-color translate-y-[3px] translate-x-[3px]" />
             <h1 className=" font-bold text-[35px] tracking-tighter text-main-color pr-8 pointer-events-none select-none ">
-              gerayo.
+              NaviRayo.
             </h1>
           </div>
           <p className="text-base font-semibold tracking-tight">

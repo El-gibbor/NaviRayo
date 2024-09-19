@@ -53,7 +53,7 @@ function Navbar({ show, showPf, guestEmail, showPremiumModal }) {
 
   // add dark on load
   useEffect(() => {
-    const preferedTheme = localStorage.getItem('gerayoTheme')
+    const preferedTheme = localStorage.getItem('NaviRayoTheme')
     if(preferedTheme){
     document.documentElement.classList.add("dark");
     setTheme("Dark");
@@ -63,13 +63,13 @@ function Navbar({ show, showPf, guestEmail, showPremiumModal }) {
   const switchThemeDark = () => {
     document.documentElement.classList.add("dark");
     setTheme("Dark");
-    localStorage.setItem('gerayoTheme', 'Dark')
+    localStorage.setItem('NaviRayoTheme', 'Dark')
   };
 
   const switchThemeLight = () => {
     document.documentElement.classList.remove("dark");
     setTheme("Light");
-    localStorage.removeItem('gerayoTheme')
+    localStorage.removeItem('NaviRayoTheme')
   };
 
   return (
@@ -90,7 +90,7 @@ function Navbar({ show, showPf, guestEmail, showPremiumModal }) {
         <Link to={'/'} className="w-fit h-fit flex items-center justify-start">
           <MdLocationOn className="text-[30px] text-main-color translate-y-[1px] translate-x-[3px]" />
           <h1 className=" font-bold text-[26px] tracking-tighter text-main-color pr-8 pointer-events-none select-none ">
-            gerayo
+            NaviRayo
           </h1>
         </Link>
 

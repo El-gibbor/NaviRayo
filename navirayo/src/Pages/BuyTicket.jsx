@@ -75,7 +75,7 @@ function BuyTicket({ guestEmail }) {
 
   // check if this user has visited before
   useEffect(() => {
-    const visitedBefore = localStorage.getItem("visitedGerayo");
+    const visitedBefore = localStorage.getItem("visitedNaviRayo");
     if (visitedBefore) {
       setVisited(true);
     }
@@ -188,7 +188,7 @@ function BuyTicket({ guestEmail }) {
 
       {/* Helmet */}
       <Helmet>
-        <title>Buy Ticket | gerayo.</title>
+        <title>Buy Ticket | NaviRayo.</title>
       </Helmet>
       {/* Profile Menu overlay */}
       <div
