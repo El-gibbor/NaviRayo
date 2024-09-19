@@ -72,20 +72,14 @@ function Login() {
         </button>
       </div>
       <div className="w-full h-full flex flex-col items-center justify-center max-sm:justify-between max-sm:pt-[70px]">
-        {/* <Fade
-          duration={500}
-          cascade
-          damping={0.3}
-          className="w-full flex flex-col items-center justify-center"
-        > */}
         <div className="flex flex-col items-center justify-center w-full h-fit max-sm:mt-10">
-          <div className="flex items-center justify-center py-3">
-            <MdLocationOn className="text-[30px] text-main-color pb-[1px] translate-x-1" />
+          <div className="flex items-center py-1 justify-center">
+            <MdLocationOn className="text-[30px] text-main-color pb-[1px] translate-x-0.5" />
             <h1 className=" font-bold text-[25px] tracking-tighter text-main-color pr-3  ">
               NaviRayo.
             </h1>
           </div>
-          <h1 className="font-bold tracking-tighter text-2xl text-left text-dark-text/90 dark:text-white">
+          <h1 className="font-bold tracking-tighter text-xl text-left text-dark-text/90 dark:text-white">
             Let's Sign you in.
           </h1>
           <p className="text-sm text-left text-dark-text/80 dark:text-light-text  max-w-[400px] font-medium">
@@ -98,7 +92,7 @@ function Login() {
               <input
                 type="text"
                 name=""
-                className="bg-[#F2F1F6] dark:bg-container-dark-2 text-dark-text dark:text-white text-sm  h-[40px] w-full flex items-center justify-start px-5 outline-none focus:ring-2 ring-main-color ring-offset-2 dark:ring-offset-body-color-dark dark:placeholder:text-light-text  rounded-full "
+                className="bg-[#F2F1F6] dark:bg-container-dark-2 text-dark-text dark:text-white text-sm  h-[40px] w-full flex items-center justify-start px-5 outline-none focus:ring-2 ring-main-color ring-offset-2 dark:ring-offset-body-color-dark dark:placeholder:text-light-text  rounded-md "
                 placeholder="Your Email"
               />
             </div>
@@ -109,7 +103,7 @@ function Login() {
               <input
                 type="password"
                 id="password"
-                className="bg-[#F2F1F6] dark:bg-container-dark-2 text-dark-text dark:text-white text-sm  h-[40px] w-full flex items-center justify-start px-5 outline-none focus:ring-2 ring-main-color ring-offset-2 dark:ring-offset-body-color-dark dark:placeholder:text-light-text  rounded-full "
+                className="bg-[#F2F1F6] dark:bg-container-dark-2 text-dark-text dark:text-white text-sm  h-[40px] w-full flex items-center justify-start px-5 outline-none focus:ring-2 ring-main-color ring-offset-2 dark:ring-offset-body-color-dark dark:placeholder:text-light-text  rounded-md "
                 placeholder="Password"
               />
             </div>
@@ -131,7 +125,7 @@ function Login() {
         <div className="flex flex-col items-center justify-start w-full">
           <button
             // onClick={handleClick}
-            className="bg-main-color my-4 outline-none text-white font-bold text-base transition active:scale-90 h-[40px] w-full max-w-[350px] rounded-full flex items-center justify-center gap-2"
+            className="bg-main-color my-4 outline-none text-white font-bold text-base transition active:scale-90 h-[40px] w-full max-w-[350px] rounded-md flex items-center justify-center gap-2"
           >
             {pending ? (
               <>

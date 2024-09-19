@@ -209,7 +209,7 @@ function Track({ guestEmail }) {
 
       {/* Helmet */}
       <Helmet>
-        <title>Find my bus | navirayo</title>
+        <title>Find my bus | NaviRayo</title>
       </Helmet>
       {/* Profile Menu overlay */}
       <div
