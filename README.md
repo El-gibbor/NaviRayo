@@ -25,6 +25,13 @@ git clone https://github.com/sorwazini/NaviRayo.git
 cd NaviRayo/navirayo
 ```
 ### Install dependencies & run project locally  
-```npm install```  then run it locally: ```npm run dev```
-
-
+```npm install```  then run it locally: ```npm run dev```   
+## Usage  
+### Home Page
+The landing page provides options for:  
+- Viewing Real-Time Bus Locations: Users can select a bus route and see the current location of buses on that route.
+- Browsing Bus Schedules: Users can search for bus routes and view detailed schedules based on their departure and arrival points.
+### Ticket Purchase
+- Purchasing Bus Tickets: Users can select a bus, choose their seat, and pay for tickets online.
+- Navigate to the ‘ Buy Tickets’ section, search for a route
+and select available buses and seats then Proceed to payment.
