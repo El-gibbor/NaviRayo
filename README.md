@@ -29,7 +29,7 @@ cd NaviRayo/navirayo
 ## Usage  
 ### Home Page
 The landing page provides options for:  
-- Viewing Real-Time Bus Locations: Users can select a bus route and see the current location of buses on that route.
+- Users can select a bus route by locations or RouteID and see the current location of buses on that route.
 - Browsing Bus Schedules: Users can search for bus routes and view detailed schedules based on their departure and arrival points.
 ### Ticket Purchase
 - Purchasing Bus Tickets: Users can select a bus, choose their seat, and pay for tickets online.
