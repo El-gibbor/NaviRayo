@@ -16,7 +16,7 @@ With NaviRayo, passengers can view real-time updates on bus locations, schedule 
 - Choose the preferred bus, seat, and route.
 - Email notifications on trip updates, push notifications for bus delays, route changes, and trip reminders.
 ## Installation & Setup  
-To get the project up and running locally, follow these steps and ensure you have the following installed on your machine:  
+To run the project locally, follow these steps and ensure you have the following installed on your machine:  
 - Node.js (v18+)
 - npm and Git
 ### Clone the Repository  
