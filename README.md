@@ -4,7 +4,7 @@
   
 With NaviRayo, passengers can view real-time updates on bus locations, schedule their trips with precise time tables, and purchase tickets from the comfort of their mobile devices. Our mission is to bridge the gap in public transport challenges by delivering an innovative solution that enhances the commuting experience in Rwanda.
 
-> **Note:** This is currently a **medium-fidelity prototype** showcasing a proposed solution for public transportation in Rwanda. The data presented, including bus schedules and tracking, are **static** and **not yet dynamic** or **real-time**. This prototype is intended to provide a glimpse into the full solution, and live data integrations will be implemented in future phases.> 
+> **Note:** This is currently a **medium-fidelity prototype** showcasing a proposed solution for public transportation in Rwanda. The data presented, including bus schedules and tracking, are **not yet dynamic in real-time**, they are all **mock data**. This prototype is intended to provide a glimpse into the full solution, and live data integrations will be implemented in future phases. 
 # Features  
 ### Real-Time Bus Tracking and Schedules:
 
@@ -17,6 +17,14 @@ With NaviRayo, passengers can view real-time updates on bus locations, schedule 
 - Email notifications on trip updates, push notifications for bus delays, route changes, and trip reminders.
 ## Installation & Setup  
 To get the project up and running locally, follow these steps and ensure you have the following installed on your machine:  
-- Node.js (v14+)
-- npm or yarn and Git
-### Clone the Repository
+- Node.js (v18+)
+- npm and Git
+### Clone the Repository  
+```
+git clone https://github.com/sorwazini/NaviRayo.git
+cd NaviRayo/navirayo
+```
+### Install dependencies & run project locally  
+```npm install```  then run it locally: ```npm run dev```
+
+
